@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OMZEE CHEMICALS"
+        android:textStyle="bold"
+        android:textSize="26sp"/>
+
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:text="New Invoice"/>
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:text="Invoice History"/>
+
+    <Button
+        android:id="@+id/btnCustomers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Customer Master" />
+
+    <Button
+        android:id="@+id/btnProductMaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Master"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

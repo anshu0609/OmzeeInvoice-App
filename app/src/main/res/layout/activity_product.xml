@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Master"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/etMainProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Main Product"
+        android:inputType="textCapSentences"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/etSubProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sub Product (Optional)"
+        android:inputType="textCapSentences"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etHSN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="HSN Code"
+        android:inputType="number"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnSaveProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE PRODUCT"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

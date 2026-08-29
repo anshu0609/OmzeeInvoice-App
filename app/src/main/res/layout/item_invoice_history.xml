@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="#EEEEEE">
+
+    <TextView
+        android:id="@+id/tvInvoiceNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invoice No: 1234"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tvInvoiceDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: 27/08/2026"
+        android:textSize="14sp"
+        android:textColor="#333333"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/tvInvoiceCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer: ABC Industries"
+        android:textSize="14sp"
+        android:textColor="#333333"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/tvInvoiceTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: ₹4200.00"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>
